@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,8 +7,8 @@
 body {
     background-image: url("../img/fundo.jpg");
     background-size: 200vh;
-    font-family: Arial;
     font-size: 15px;
+    font-family: 'Source Code Pro', monospace; 
     text-align: flex;
   }
 
@@ -31,25 +31,17 @@ header {
   justify-content: center;
   align-items: center;
 }
-
-.section {
-  background-image: url("../img/fundo.jpg");
-  text-align: center;
-  background-size: 200vh;
-
+  
+.menu {
+  background-color: white;
+  font-family: 'Source Code Pro', monospace;  position: fixed;
+  width: 100vw;
+  top: 0;
 }
   
 .menu ul {
   display: flex;
   justify-content: space-around;
-  }
-  
-.menu {
-  background-color: white;
-  font-family: Arial Black;
-  position: fixed;
-  width: 100vw;
-  top: 0;
 }
   
 .menu a{
@@ -80,10 +72,29 @@ a:hover {
 
 .site-title {
   font-size: 4em;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .site-subtitle {
   font-style: italic;
+  font-family: 'Indie Flower', cursive;
+}
+
+.section {
+  background-color: black;
+  text-align: center;
+  
+}
+
+.portfolio {
+  background-color: turquoise;
+}
+
+.portfolio h2 {
+  
+  color: black;
+  font-family: 'Source Code Pro', monospace; 
+  text-align: center;
 }
 
 .img-portfolio {
@@ -92,7 +103,6 @@ a:hover {
 }
 
 .img {
-  color: white;
-  position: center;
+  background-color: whitesmoke;
+  color: black;
 }
-
